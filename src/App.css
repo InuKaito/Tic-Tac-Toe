@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 .main--container{
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@
 }
 .winner{
   color: black;
-  /* background-image: url('./img/confetti.gif'); */
+  background-image: url('./img/confetti.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,11 +40,11 @@
   background-color: lightgray;
 }
 .X{
-  background-color: #153d5b;
+  background-color: #153D5B;
   color: white;
 }
 .O{
-  background-color: #26c3c4;
+  background-color: #26C3C4;
   color: white;
 }
 img{
